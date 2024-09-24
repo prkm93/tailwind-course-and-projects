@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0.0",
+  "description": "- No reinventing of CSS class names required - ex - we need to thnk and add class names everytime when need to add new stlyes to div - Your CSS doesn't grow with html and designs - utility classes make components independent. ex - styles of navbar of one page, willn't collapse with styles of navbar of other page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.7"
+  }
+}
