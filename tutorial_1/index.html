@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind tutoral 1</title>
+  </head>
+  <body>
+    <nav class="py-4 bg-purple-600 text-white">
+      <ul class="flex px-4">
+        <li class="mx-4 cursor-pointer text-purple-200">Home</li>
+        <li class="mx-4 cursor-pointer text-purple-200">About</li>
+        <li class="mx-4 cursor-pointer text-purple-200">Contact</li>
+      </ul>
+    </nav>
+    <div class="text-blue-100">This is blue text</div>
+    <div class="text-blue-200">This is blue text</div>
+    <div class="text-blue-300">This is blue text</div>
+    <div class="text-blue-400">This is blue text</div>
+    <div class="text-blue-500">This is blue text</div>
+    <div class="text-blue-600">This is blue text</div>
+    <div class="text-blue-700">This is blue text</div>
+    <div class="text-blue-800">This is blue text</div>
+    <div class="text-blue-900">This is blue text</div>
+
+    <h1 class="text-3xl font-bold underline text-clifford">hello tailwind</h1>
+  </body>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+        },
+      },
+    };
+  </script>
+</html>
